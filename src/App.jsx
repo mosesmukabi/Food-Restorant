@@ -4,14 +4,16 @@ import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
 import ServicesSection from "./components/ServicesSection";
 import Footer from "./components/Footer";
+import Testimonial from "./components/testimonials/Testimonials";
 function App() {
   return (
     <BrowserRouter>
       <>
         <Header />
-        <Hero/>
-        <ServicesSection/>
-        <Footer/>
+        <Hero />
+        <Testimonial />
+        <ServicesSection />
+        <Footer />
       </>
     </BrowserRouter>
   );
