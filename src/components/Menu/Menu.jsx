@@ -105,7 +105,7 @@ const Menu = () => {
       description: "Description of the item",
       price: "$24.00",
       rating: 4.9,
-      image: "https://via.placeholder.com/100", // Replace with your image URL
+      image: "https://via.placeholder.com/100",
     },
     {
       id: 2,
@@ -113,7 +113,7 @@ const Menu = () => {
       description: "Description of the item",
       price: "$26.00",
       rating: 4.6,
-      image: "https://via.placeholder.com/100", // Replace with your image URL
+      image: "https://via.placeholder.com/100",
     },
     {
       id: 3,
@@ -121,7 +121,7 @@ const Menu = () => {
       description: "Description of the item",
       price: "$23.00",
       rating: 4.5,
-      image: "https://via.placeholder.com/100", // Replace with your image URL
+      image: "https://via.placeholder.com/100",
     },
   ];
 
