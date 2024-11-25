@@ -7,7 +7,9 @@ const Header = () => {
       <div className="container mx-auto flex items-center justify-between py-4 px-6">
         {/* Logo */}
         <div className="flex items-center">
-          <span className="bg-green-500 text-white text-xl font-bold px-2 py-0 rounded-md">F</span>
+          <span className="bg-green-500 text-white text-xl font-bold px-2 py-0 rounded-md">
+            F
+          </span>
           <span className="text-black text-xl font-bold ml-2">OODI</span>
         </div>
 
@@ -51,8 +53,7 @@ const Header = () => {
 
         {/* Actions */}
         <div className="flex items-center space-x-6">
-          
-         {/* contact button */}
+          {/* contact button */}
           <Link
             to="/contact"
             className="bg-green-500 text-white text-sm font-medium px-4 py-2 rounded-lg hover:bg-green-600 transition-colors"

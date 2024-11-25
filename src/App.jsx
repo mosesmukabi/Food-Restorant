@@ -5,19 +5,22 @@ import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
 import ServicesSection from "./components/ServicesSection";
 import Footer from "./components/Footer";
+
+import Testimonial from "./components/testimonials/Testimonials";
+
 import PopularCategories from "./components/categories/Categories";
+
 function App() {
   return (
     <BrowserRouter>
       <>
         <Header />
-        <Hero/>
+        <Hero />
         <PopularCategories/>
         <Menu />
-        <ServicesSection/>
-        
-        <Footer/>
-      
+        <Testimonial />
+        <ServicesSection />
+        <Footer />
       </>
     </BrowserRouter>
   );

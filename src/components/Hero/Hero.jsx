@@ -41,7 +41,7 @@ const Hero = () => {
           <div className="relative">
             <div className="rounded-full bg-green-100 p-10">
               <img
-                src={chef} 
+                src={chef}
                 alt="Food"
                 className="w-full max-w-sm rounded-full mx-auto"
               />
