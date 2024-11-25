@@ -11,8 +11,9 @@ function App() {
       <>
         <Header />
         <Hero/>
-        <ServicesSection/>
         <Menu />
+        <ServicesSection/>
+        
         <Footer/>
       
       </>
