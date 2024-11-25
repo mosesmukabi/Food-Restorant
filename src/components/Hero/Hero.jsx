@@ -59,7 +59,7 @@ const Hero = () => {
             {/* Spicy Noodles Card */}
             <div className="bg-white rounded-lg shadow-lg p-4 w-36 text-center">
               <img
-                src={spicy} // Replace with actual image path
+                src={spicy} 
                 alt="Spicy Noodles"
                 className="rounded-lg mb-2"
               />
@@ -69,7 +69,7 @@ const Hero = () => {
             {/* Vegetarian Salad Card */}
             <div className="bg-white rounded-lg shadow-lg p-4 w-36 text-center">
               <img
-                src={saland} // Replace with actual image path
+                src={saland} 
                 alt="Vegetarian Salad"
                 className="rounded-lg mb-2"
               />
